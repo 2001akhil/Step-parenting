@@ -27,8 +27,12 @@ function App() {
     } catch (error) {
       console.log(error)
       setIsSubmitting(false)
-      console.log(error)
-      setMessage(`❌ ${error?.response?.data?.error}` );
+      if(error?.response?.data?.message){
+        setMessage(`❌ ${error?.response?.data?.message}` );
+      }
+      if(error?.response?.data?.error){
+        setMessage(`❌ ${error?.response?.data?.error}` );
+      }
     }
 
 
