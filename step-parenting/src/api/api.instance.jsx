@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Create an axios instance
 const axiosInstance = axios.create({
-  baseURL: 'http://changeURL/api/v1',
+  baseURL: 'https://step-parenting.onrender.com/api/v1/users',
   headers: {
     'Content-Type': 'application/json',
   },
