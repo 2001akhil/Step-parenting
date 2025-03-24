@@ -1,0 +1,27 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2001akhil/step-paenting.git"
+  },
+  "author": "akhil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/2001akhil/step-paenting/issues"
+  },
+  "homepage": "https://github.com/2001akhil/step-paenting#readme",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.12.1",
+    "nodemailer": "^6.10.0",
+     "nodemon": "^3.1.9"
+  }
+}
