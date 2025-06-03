@@ -42,7 +42,7 @@ class Database {
              * @description Tries to connect to MongoDB and retries upon failure
              */
             const attemptConnection = () => {
-                mongoose.connect(`mongodb+srv://krishvedant:64BRjRqM0ZyidWQU@cluster0.ngk1i.mongodb.net/Step_parenting`)
+                mongoose.connect()//connection point 
                     .then(() => {
                         console.log('✅ MongoDB connected successfully');
                         resolve(); // Resolve the promise on success
