@@ -21,8 +21,8 @@ class MailService {
             port: 587, // ✅ Use 587 instead of 465
             secure: false,
             auth: {
-                user: "krishvedant@publishonyourown.com", 
-                pass:"ncfsydgqaztsdzzt"
+                user: "", 
+                pass:""
             },
         });
     }
